@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head th:include="layout :: htmlhead">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/search_style.css" />
+
+    <!-- Fontes -->
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+    <!-- Icones -->
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+</head>
+
+<body class="wrapper">
+    <a href="home.html" class="previous">&#8249;</a>
+    <div class="title">
+        <h1>Pesquisar</h1>
+    </div>
+
+    <form action="home.html" method="get">
+        <input type="text" class="defaultInputText" placeholder="Pesquisar">
+    </form>
+
+    <footer class="footerIcons">
+        <a href="home.html"><i class="fa icon fa-home" aria-hidden="true"></i></a>
+
+        <p><i class="fa icon fa-search" aria-hidden="true"></i></p>
+
+        <a href="#"><i class="fa icon fa-plus" aria-hidden="true"></i></a>
+
+        <a href="chat.html"><i class="fa icon fa-comment" aria-hidden="true"></i></a>
+
+        <a href="user.html"><i class="fa icon fa-user-o" aria-hidden="true"></i></a>
+    </footer>
+</body>
+
+</html>

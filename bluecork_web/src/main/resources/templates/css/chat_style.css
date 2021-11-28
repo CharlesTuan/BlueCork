@@ -1,0 +1,43 @@
+@import url(general_styles.css);
+
+h4 {
+    font-family: 'Roboto';
+    margin-top: -43px;
+    align-self: center;
+    font-size: 30px;
+}
+
+.previous {
+    font-size: 50px;
+    text-decoration: none;
+    color: #000;
+    width: 40px;
+}
+
+.previous:hover {
+    color: #395084;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.contact {
+    display: flex;
+    margin: 15px 0;
+}
+
+.contact img {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+
+.chatAndName h3 {
+    font-family: 'Roboto';
+    margin: 0 0 0 10px;
+}
+
+.chatAndName p {
+    font-family: 'Roboto';
+    margin: 10px 0 0 10px;
+}

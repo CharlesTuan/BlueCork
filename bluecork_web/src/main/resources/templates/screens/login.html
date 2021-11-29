@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head th:include="layout :: htmlhead">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/login-register_style.css" />
+
+    <!-- Fontes -->
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body class="wrapper">
+    <a href="index.html" class="previous">&#8249;</a>
+    <div class="title">
+        <h1>Entrar</h1>
+    </div>
+
+    <form action="home.html" method="get">
+        <input type="text" class="defaultInputText" placeholder="jane@exemple.com">
+        <input type="password" class="defaultInputText" placeholder="**********">
+        <div class="submitInput">
+            <input type="submit" value="Entrar" class="btnDark unique Roboto">
+        </div>
+    </form>
+</body>
+
+</html>

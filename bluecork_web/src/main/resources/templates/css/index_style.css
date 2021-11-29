@@ -1,0 +1,25 @@
+@import url(general_styles.css);
+
+.banner {
+    justify-content: space-between;
+    background: #ffffff url(../images/Rectangle.png) repeat-y center;
+}
+
+.wrapper {
+    align-content: center;
+}
+
+.title {
+    display: flex;
+    height: 84vh;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    justify-content: space-around;
+    height: 100px;
+}

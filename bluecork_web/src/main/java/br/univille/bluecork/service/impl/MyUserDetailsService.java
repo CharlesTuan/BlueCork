@@ -38,6 +38,4 @@ public class MyUserDetailsService implements UserDetailsService {
             usuario.setSenha(passwordEncoder.encode(usuario.getSenha()));
         service.save(usuario);
     }
-    
-    
 }

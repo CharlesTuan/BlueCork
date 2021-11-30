@@ -19,6 +19,16 @@ public class HomeController {
         String data = sdf.format(agora);
 
         //data = String.valueOf(agora.getTime());
-        return new ModelAndView("home/index","dataatualizada",data); 
+        return new ModelAndView("screens/index","dataatualizada",data); 
     }
+    
+    @GetMapping("/login")
+	public ModelAndView login() {
+		return new ModelAndView("screens/login");
+	}
+    
+    @GetMapping("/register")
+	public ModelAndView register() {
+		return new ModelAndView("screens/register");
+	}
 }

@@ -29,7 +29,7 @@ public class AuthenticationControllerAPI {
     
     @PostMapping("/signin")
     public ResponseEntity signin(@RequestBody Usuario usuario){
-        //Usuario usuarioValido = serviceMyUserDetail.buscaUsuarioSenha(usuario.getUsuario(), usuario.getSenha());
+        Usuario usuarioValido = serviceMyUserDetail.buscaUsuarioSenha(usuario.getUsuario(), usuario.getSenha());
         UserDetails userDetails = serviceMyUserDetail.loadUserByUsername(usuario.getUsuario());
         if(!passwordEncoder.matches(usuario.getSenha(), userDetails.getPassword()))
             return ResponseEntity.status(HttpStatus.FORBIDDEN).build();

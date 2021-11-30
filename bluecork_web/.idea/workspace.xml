@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54a483b3-f00b-47cf-882e-020910e7f278" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/StartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/api/AuthenticationControllerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/api/AuthenticationControllerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/api/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/api/CORSFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/api/PacienteControllerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/api/PacienteControllerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/api/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/api/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/controller/PacienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/model/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/model/Consulta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/model/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/model/Procedimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/model/Procedimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/model/ProcedimentoRealizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/model/ProcedimentoRealizado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/repository/PacienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/repository/PacienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/security/JWTRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/security/JWTRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/security/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/security/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/security/SecurityConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/security/SecurityConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/service/PacienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/service/impl/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/service/impl/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/univille/dacs2020/service/impl/PacienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/univille/bluecork/service/impl/PacienteServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-    </list>
+    <list default="true" id="54a483b3-f00b-47cf-882e-020910e7f278" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1zxjPmiZCDoa7uFumCUR4LxvJbT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,10 +32,17 @@
       <updated>1635096611127</updated>
       <workItem from="1635096612174" duration="651000" />
       <workItem from="1635098810857" duration="1281000" />
+      <workItem from="1638225759036" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl" timestamp="1638225785127">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl/0.27.3840.2133/3840.403.1920.1080@0.27.3840.2133" timestamp="1638225785127" />
   </component>
 </project>

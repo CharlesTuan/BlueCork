@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="344107b6-68c6-4157-a2b8-9cea7278935c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bluecork_web/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/api/AuthenticationControllerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/api/AuthenticationControllerAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/security/SecurityConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/security/SecurityConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/service/impl/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/java/br/univille/bluecork/service/impl/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/chat_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/chat_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/general_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/general_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/home_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/home_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/index_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/login-register_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/login-register_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/perfil.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/perfil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/search_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/search_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/css/user_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/static/css/user_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/target/classes/META-INF/maven/br.univille/dacs2020/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bluecork_web/target/classes/META-INF/maven/br.univille/dacs2020/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/target/classes/templates/home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bluecork_web/target/classes/templates/layout.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/bluecork_web/src/main/resources/templates/screens/register.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="203R3O5cwrjWHBQ5kzP7Qxe8G4E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="344107b6-68c6-4157-a2b8-9cea7278935c" name="Default Changelist" comment="" />
+      <created>1635271085766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635271085766</updated>
+      <workItem from="1635271087852" duration="20000" />
+      <workItem from="1638225787560" duration="354000" />
+      <workItem from="1638227513352" duration="2053000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl" timestamp="1635271105614">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl/0.27.3840.2133/3840.512.1920.1080@0.27.3840.2133" timestamp="1635271105614" />
+  </component>
+</project>

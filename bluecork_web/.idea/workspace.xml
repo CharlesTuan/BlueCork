@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54a483b3-f00b-47cf-882e-020910e7f278" name="Default Changelist" comment="" />
+    <list default="true" id="54a483b3-f00b-47cf-882e-020910e7f278" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../alpdex_main/sered-manager-ui" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,6 +35,8 @@
       <workItem from="1635096612174" duration="651000" />
       <workItem from="1635098810857" duration="1281000" />
       <workItem from="1638225759036" duration="28000" />
+      <workItem from="1638484658794" duration="440000" />
+      <workItem from="1638486760179" duration="620000" />
     </task>
     <servers />
   </component>
@@ -40,9 +44,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl" timestamp="1638225785127">
+    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl" timestamp="1638487417727">
       <screen x="0" y="27" width="3840" height="2133" />
     </state>
-    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl/0.27.3840.2133/3840.403.1920.1080@0.27.3840.2133" timestamp="1638225785127" />
+    <state x="1703" y="851" width="424" height="482" key="FileChooserDialogImpl/0.27.3840.2133/3840.403.1920.1080@0.27.3840.2133" timestamp="1638487417727" />
   </component>
 </project>

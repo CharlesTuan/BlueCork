@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
-<head th:include="layout :: htmlhead">
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/home_style.css" />
 
@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <!-- Icones -->
-    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body class="wrapper">
@@ -48,22 +48,22 @@
             <img src="../images/seeMore_9.png">
             <img src="../images/seeMore_10.png">
         </div>
-
+        
         <div class="submitInput">
             <input type="submit" value="Veja +" class="btnWhite unique Roboto">
         </div>
     </div>
 
     <footer class="footerIcons">
-        <p><i class="fa icon fa-home" aria-hidden="true"></i></p>
+        <p href="/home"><i class="fa icon fa-home" aria-hidden="true"></i></p>
 
-        <a href="search.html"><i class="fa icon fa-search" aria-hidden="true"></i></a>
+        <a href="/search"><i class="fa icon fa-search" aria-hidden="true"></i></a>
 
         <a href="#"><i class="fa icon fa-plus" aria-hidden="true"></i></a>
 
-        <a href="chat.html"><i class="fa icon fa-comment" aria-hidden="true"></i></a>
+        <a href="/chat"><i class="fa icon fa-comment" aria-hidden="true"></i></a>
 
-        <a href="user.html"><i class="fa icon fa-user-o" aria-hidden="true"></i></a>
+        <a href="/user"><i class="fa icon fa-user-o" aria-hidden="true"></i></a>
     </footer>
 </body>
 

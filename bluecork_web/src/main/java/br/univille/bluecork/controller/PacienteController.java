@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.univille.bluecork.model.Paciente;
+import br.univille.bluecork.model.Cliente;
 import br.univille.bluecork.service.PacienteService;
 
 @Controller
@@ -25,7 +25,7 @@ public class PacienteController {
     @GetMapping
     public ModelAndView index(@RequestParam(required = false) String busca){
 
-        List<Paciente> listaPacientes = null;
+        List<Cliente> listaPacientes = null;
         if(busca == null){
             listaPacientes = service.getAll();
         }else{
@@ -36,24 +36,24 @@ public class PacienteController {
     }
 
     @GetMapping("/novo")
-	public ModelAndView createForm(@ModelAttribute Paciente paciente) {
+	public ModelAndView createForm(@ModelAttribute Cliente cliente) {
 		return new ModelAndView("paciente/form");
 	}
 
     @PostMapping(params="form")
-    public ModelAndView save(Paciente paciente){
-        service.save(paciente);
+    public ModelAndView save(Cliente cliente){
+        service.save(cliente);
         return new ModelAndView("redirect:/paciente");
     }
 
     @GetMapping(value="/alterar/{id}")
-	public ModelAndView edit(@PathVariable("id") Paciente paciente) {
-		return new ModelAndView("paciente/form","paciente",paciente);
+	public ModelAndView edit(@PathVariable("id") Cliente cliente) {
+		return new ModelAndView("paciente/form","paciente",cliente);
     }
 
     @GetMapping(value="/delete/{id}")
-    public ModelAndView delete(@PathVariable("id") Paciente paciente){
-        service.delete(paciente);
+    public ModelAndView delete(@PathVariable("id") Cliente cliente){
+        service.delete(cliente);
         return new ModelAndView("redirect:/paciente");
     }
 

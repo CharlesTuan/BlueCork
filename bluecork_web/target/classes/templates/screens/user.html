@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 
-<head th:include="layout :: htmlhead">
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/user_style.css" />
 
@@ -10,7 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 
     <!-- Icones -->
-    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body class="wrapper">
@@ -36,15 +36,15 @@
     </div>
 
     <footer class="footerIcons">
-        <a href="home.html"><i class="fa icon fa-home" aria-hidden="true"></i></a>
+        <a href="/home"><i class="fa icon fa-home" aria-hidden="true"></i></a>
 
-        <a href="search.html"><i class="fa icon fa-search" aria-hidden="true"></i></a>
+        <a href="/search"><i class="fa icon fa-search" aria-hidden="true"></i></a>
 
         <a href="#"><i class="fa icon fa-plus" aria-hidden="true"></i></a>
 
-        <a href="chat.html"><i class="fa icon fa-comment" aria-hidden="true"></i></a>
+        <a href="/chat"><i class="fa icon fa-comment" aria-hidden="true"></i></a>
 
-        <p><i class="fa icon fa-user-o" aria-hidden="true"></i></p>
+        <p><a href="/user"><i class="fa icon fa-user-o" aria-hidden="true"></i></a></p>
     </footer>
 </body>
 

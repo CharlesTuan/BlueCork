@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.univille.bluecork.model.Paciente;
+import br.univille.bluecork.model.Cliente;
 import br.univille.bluecork.repository.PacienteRepository;
 import br.univille.bluecork.service.PacienteService;
 
@@ -16,22 +16,22 @@ public class PacienteServiceImpl implements PacienteService {
     private PacienteRepository repository;
 
     @Override
-    public void save(Paciente paciente) {
-        repository.save(paciente);
+    public void save(Cliente cliente) {
+        repository.save(cliente);
     }
 
     @Override
-    public List<Paciente> getAll() {
+    public List<Cliente> getAll() {
         return repository.findAll();
     }
 
     @Override
-    public void delete(Paciente paciente) {
-        repository.delete(paciente);
+    public void delete(Cliente cliente) {
+        repository.delete(cliente);
     }
 
     @Override
-    public List<Paciente> getAllByNome(String nome) {
+    public List<Cliente> getAllByNome(String nome) {
         return repository.findAllByNomeContainsIgnoreCase(nome);
     }
     

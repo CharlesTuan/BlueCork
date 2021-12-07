@@ -13,7 +13,7 @@ import javax.persistence.TemporalType;
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
-public class Paciente {
+public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;

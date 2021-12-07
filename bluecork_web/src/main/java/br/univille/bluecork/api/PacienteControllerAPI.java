@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.univille.bluecork.model.Paciente;
+import br.univille.bluecork.model.Cliente;
 import br.univille.bluecork.service.PacienteService;
 
 @RestController
@@ -25,40 +25,40 @@ public class PacienteControllerAPI {
 
     
     @GetMapping
-    public ResponseEntity<List<Paciente>> getAll(){
-        List<Paciente> lista = service.getAll();
-        return new ResponseEntity<List<Paciente>>(lista,HttpStatus.OK);
+    public ResponseEntity<List<Cliente>> getAll(){
+        List<Cliente> lista = service.getAll();
+        return new ResponseEntity<List<Cliente>>(lista,HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Paciente> getById(@PathVariable("id") Paciente paciente){
-        return new ResponseEntity<>(paciente, HttpStatus.OK);
+    public ResponseEntity<Cliente> getById(@PathVariable("id") Cliente cliente){
+        return new ResponseEntity<>(cliente, HttpStatus.OK);
     }
 
     @PostMapping
-    public ResponseEntity<Paciente> save(@RequestBody Paciente paciente){
-        service.save(paciente);
+    public ResponseEntity<Cliente> save(@RequestBody Cliente cliente){
+        service.save(cliente);
         //return ResponseEntity.ok().build();
-        return new ResponseEntity<Paciente>(paciente,HttpStatus.OK);
+        return new ResponseEntity<Cliente>(cliente,HttpStatus.OK);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Paciente> update(@PathVariable("id") Paciente pacienteAntigo, 
-                                            @RequestBody Paciente pacienteAtualizado){
+    public ResponseEntity<Cliente> update(@PathVariable("id") Cliente pacienteAntigo, 
+                                            @RequestBody Cliente pacienteAtualizado){
         pacienteAntigo.setNome(pacienteAtualizado.getNome());
         pacienteAntigo.setSexo(pacienteAtualizado.getSexo());
         pacienteAntigo.setDataNascimento(pacienteAtualizado.getDataNascimento());
 
         service.save(pacienteAntigo);
-        return new ResponseEntity<Paciente>(pacienteAntigo,HttpStatus.OK);
+        return new ResponseEntity<Cliente>(pacienteAntigo,HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> delete(@PathVariable("id") Paciente paciente){
-        if(paciente == null){
+    public ResponseEntity<?> delete(@PathVariable("id") Cliente cliente){
+        if(cliente == null){
             return ResponseEntity.notFound().build();    
         }
-        service.delete(paciente);
+        service.delete(cliente);
         return ResponseEntity.ok().build();
     }
 

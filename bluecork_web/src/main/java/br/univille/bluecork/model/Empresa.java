@@ -18,7 +18,7 @@ import javax.persistence.TemporalType;
 
 
 @Entity
-public class Consulta {
+public class Empresa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
@@ -26,7 +26,7 @@ public class Consulta {
     private Date data;
     private String status;
     @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.REFRESH})
-    private Paciente paciente;
+    private Cliente cliente;
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "CONSULTA_ID")
     private List<ProcedimentoRealizado> listaProcedimentos = new ArrayList();
@@ -56,12 +56,12 @@ public class Consulta {
         this.status = status;
     }
 
-    public Paciente getPaciente() {
-        return paciente;
+    public Cliente getPaciente() {
+        return cliente;
     }
 
-    public void setPaciente(Paciente paciente) {
-        this.paciente = paciente;
+    public void setPaciente(Cliente cliente) {
+        this.cliente = cliente;
     }
 
     

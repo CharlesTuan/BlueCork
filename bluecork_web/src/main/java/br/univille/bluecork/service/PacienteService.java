@@ -4,12 +4,12 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import br.univille.bluecork.model.Paciente;
+import br.univille.bluecork.model.Cliente;
 
 @Service
 public interface PacienteService {
-    void save(Paciente paciente);
-    List<Paciente> getAll();
-    void delete(Paciente paciente);
-    List<Paciente> getAllByNome(String nome);
+    void save(Cliente cliente);
+    List<Cliente> getAll();
+    void delete(Cliente cliente);
+    List<Cliente> getAllByNome(String nome);
 }
